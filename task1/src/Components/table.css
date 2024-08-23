@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;  /* Ensures the body and html elements take up the full height of the viewport */
+    margin: 0;     /* Removes default margin */
+    padding: 0;    /* Removes default padding */
+    box-sizing: border-box;  /* Ensures padding and border are included in the element's width and height */
+}
+.table{
+    background-color: rgb(129, 154, 192);
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  input {
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
+  
